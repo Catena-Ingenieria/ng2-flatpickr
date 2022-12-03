@@ -10,7 +10,7 @@ export interface FlatpickrOptions {
     appendTo?: HTMLElement;
     clickOpens?: boolean;
     dateFormat?: string;
-    defaultDate?: string | Date;
+    defaultDate?: string | Date | string[];
     disable?: Array<string | Date | Function>;
     disableMobile?: boolean;
     enable?: Array<string | Date | Function>;
